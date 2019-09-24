@@ -44,7 +44,7 @@ class ContactData extends Component {
                 email: {
                     elementType: 'input',
                     elementConfig: {
-                        type: 'text',
+                        type: 'email',
                         placeholder: 'Your E-Mail'                      
                     },
                     value: ''
@@ -55,7 +55,7 @@ class ContactData extends Component {
                           options: [
                           {value: 'fastest', displayValue: 'Fastest'},
                           {value: 'cheapest', displayValue: 'Cheapest'}
-                        ]
+                        ]  
                         },
                         value: ''
                     }
